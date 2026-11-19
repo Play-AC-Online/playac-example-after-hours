@@ -1,25 +1,25 @@
 {
   "stills": [
     {
-      "file": "sign-at-noon.webp",
-      "caption": "At noon the flower shop's door stays shut and its sign is the mod's: Evening Tea Room, open 3:00 PM to 1:00 AM."
+      "file": "door-at-night.webp",
+      "caption": "1:20 AM in the rain: the town shop is lit and open, hours after it would usually shut."
     },
     {
-      "file": "shop-at-six.webp",
-      "caption": "Inside at 6 PM: the west bench holds the mod's Tea Chest and Reading Chair, and the other tables four fruits at the mod's prices."
+      "file": "shop-at-night.webp",
+      "caption": "Inside at night every shelf is bare. The only goods are by the counter: tonight a Ghost Lantern and a gyroid."
     },
     {
-      "file": "stock-line.webp",
-      "caption": "Ask Joan what's in stock and she answers with the mod's stock line."
+      "file": "ghost-lantern.webp",
+      "caption": "The Ghost Lantern, the mod's own piece: a tall lantern with green glowing windows, a face in them, and moss down its stone. Only this lantern wears these pictures."
     },
     {
-      "file": "placed.webp",
-      "caption": "Bought and put in your room through the pocket menu: the blue chest in the middle is the mod's Tea Chest."
+      "file": "shop-by-day.webp",
+      "caption": "The same shop at 10 AM: the day's own goods on every shelf. The mod changes nothing outside its hours."
     }
   ],
   "film": {
     "file": "film.mp4",
     "poster": "film.webp",
-    "caption": "Knocking at noon gets the Evening Tea Room sign and its hours; in the evening the shop is open with the mod's furniture and fruit, and Joan greets you and answers what's in stock with the mod's words."
+    "caption": "Inside the shop at 1:20 AM with the mod: empty shelves, and by the counter only tonight's gyroid and the Ghost Lantern."
   }
 }

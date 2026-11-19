@@ -1,37 +1,28 @@
 {
   "shops": [
     {
-      "target": "flower",
-      "name": "Evening Tea Room",
+      "target": "nook",
       "hours": {
-        "open": "15:00",
-        "close": "01:00"
+        "open": "01:00",
+        "close": "03:00"
       },
-      "greeting": "Welcome to the Evening Tea Room! Sit down and take your time. Everything on the tables goes lovely with a cup.",
-      "stock_line": "A Tea Chest and a Reading Chair, made here and nowhere else, and four kinds of fruit for tea. Point at one for the price.",
       "stock": [
-        {
-          "item": "example.evening-tea-room:tea-chest"
-        },
-        {
-          "item": "example.evening-tea-room:reading-chair"
-        },
-        {
-          "item": "0x2800",
-          "price": 600
-        },
-        {
-          "item": "0x2801",
-          "price": 600
-        },
-        {
-          "item": "0x2802",
-          "price": 600
-        },
-        {
-          "item": "0x2803",
-          "price": 600
-        }
+        { "item": "example.after-hours:ghost-lantern" },
+        { "item": "0x1768" },
+        { "item": "0x1738" },
+        { "item": "0x16E4" },
+        { "item": "0x1780" },
+        { "item": "0x15BC" },
+        { "item": "0x15E0" },
+        { "item": "0x16C0" },
+        { "item": "0x16CC" },
+        { "item": "0x16FC" },
+        { "item": "0x16F0" },
+        { "item": "0x16B0" },
+        { "item": "0x1728" },
+        { "item": "0x1744" },
+        { "item": "0x1774" },
+        { "item": "0x1798" }
       ]
     }
   ]

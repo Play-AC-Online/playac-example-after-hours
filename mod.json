@@ -1,18 +1,17 @@
 {
   "schema": 1,
   "api": 1,
-  "id": "example.evening-tea-room",
-  "name": "Evening Tea Room",
-  "version": "1.0.0",
+  "id": "example.after-hours",
+  "name": "After Hours",
+  "version": "2.0.0",
   "authors": [
     "Play AC Online"
   ],
-  "description": "The flower shop becomes a tea room, open from 3 PM until 1 AM. On its tables: a Tea Chest and a Reading Chair of the mod's own, and fruit for tea. Remove the mod and the furniture stays in your house as the plain pieces it is built on.",
+  "description": "From 1 AM to 3 AM the town shop opens again, and all it sells is gyroids. A different few stand on the floor each night, and among them, now and then, a Ghost Lantern of the mod's own, its windows glowing green. Every other spot is empty. The rest of the day the shop is its usual self. Remove the mod and a Ghost Lantern you bought stays in your house as the plain tall lantern it is built on.",
   "scope": "world",
   "content": {
     "items": "items.json",
-    "shops": "shops.json",
-    "messages": "messages/en.json"
+    "shops": "shops.json"
   },
   "assets_original": true
 }
