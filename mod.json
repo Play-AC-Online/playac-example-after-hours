@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "api": 1,
+  "id": "example.evening-tea-room",
+  "name": "Evening Tea Room",
+  "version": "1.0.0",
+  "authors": [
+    "Play AC Online"
+  ],
+  "description": "The flower shop becomes a tea room, open from 3 PM until 1 AM. On its tables: a Tea Chest and a Reading Chair of the mod's own, and fruit for tea. Remove the mod and the furniture stays in your house as the plain pieces it is built on.",
+  "scope": "world",
+  "content": {
+    "items": "items.json",
+    "shops": "shops.json",
+    "messages": "messages/en.json"
+  },
+  "assets_original": true
+}

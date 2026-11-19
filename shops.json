@@ -1,0 +1,38 @@
+{
+  "shops": [
+    {
+      "target": "flower",
+      "name": "Evening Tea Room",
+      "hours": {
+        "open": "15:00",
+        "close": "01:00"
+      },
+      "greeting": "Welcome to the Evening Tea Room! Sit down and take your time. Everything on the tables goes lovely with a cup.",
+      "stock_line": "A Tea Chest and a Reading Chair, made here and nowhere else, and four kinds of fruit for tea. Point at one for the price.",
+      "stock": [
+        {
+          "item": "example.evening-tea-room:tea-chest"
+        },
+        {
+          "item": "example.evening-tea-room:reading-chair"
+        },
+        {
+          "item": "0x2800",
+          "price": 600
+        },
+        {
+          "item": "0x2801",
+          "price": 600
+        },
+        {
+          "item": "0x2802",
+          "price": 600
+        },
+        {
+          "item": "0x2803",
+          "price": 600
+        }
+      ]
+    }
+  ]
+}
