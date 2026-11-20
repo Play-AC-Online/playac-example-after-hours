@@ -35,15 +35,17 @@ The film (click the picture): Inside the shop at 1:20 AM with the mod: empty she
 
 ## The shop
 
-`shops.json` has one entry for the town shop, `"target": "nook"`, with
-`"mode": "replace"`, `hours` and a `stock` of sixteen goods: fifteen gyroids and
+`shops.json` changes one shop, Nook's store, by its id `"nook"`. Its block says
+when it applies, what it does then, and its sixteen goods: fifteen gyroids and
 the Ghost Lantern.
 
-- `hours` is 01:00 to 03:00. The entry applies only inside them, and the shop
-  opens for these hours even though it is shut at night.
-- `"mode": "replace"` makes the mod's goods the shop's whole stock: each
-  furniture spot holds one of them and every other spot is bare. `"add"` would
-  put them among the day's own goods instead.
+- `"when": { "hours": { "from": "01:00", "to": "03:00" } }`: the block applies
+  only inside these hours.
+- `"open": true`: while it applies the shop is open, even though it is shut at
+  night.
+- `"own_goods": false`: while it applies the mod's goods are the shop's whole
+  stock. Each furniture spot holds one of them and every other spot is bare.
+  Without it the goods would join the day's own instead.
 - Outside the hours nothing changes. The shop keeps its own hours and its own
   goods, and the day's stock is still there when it opens in the morning.
 - The shop has fewer furniture spots than sixteen goods, so it shows a few of
@@ -52,8 +54,8 @@ the Ghost Lantern.
 - A good may be an item of the same mod, named by its full id,
   `example.after-hours:ghost-lantern`. Without a `price` it takes the item's
   own price from `items.json`. The gyroids sell at the game's own price.
-- The same entry works on the flower shop: every shop takes `mode`, `hours`
-  and `stock` with the same meaning.
+- Every shop takes the same fields with the same meaning. The same block works
+  on the flower shop as `"flower"`.
 
 ## The lantern
 

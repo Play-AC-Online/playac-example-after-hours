@@ -1,13 +1,10 @@
 {
-  "shops": [
-    {
-      "target": "nook",
-      "mode": "replace",
-      "hours": {
-        "open": "01:00",
-        "close": "03:00"
-      },
-      "stock": [
+  "shops": {
+    "nook": {
+      "when": { "hours": { "from": "01:00", "to": "03:00" } },
+      "open": true,
+      "own_goods": false,
+      "goods": [
         { "item": "example.after-hours:ghost-lantern" },
         { "item": "0x1768" },
         { "item": "0x1738" },
@@ -26,5 +23,5 @@
         { "item": "0x1798" }
       ]
     }
-  ]
+  }
 }
