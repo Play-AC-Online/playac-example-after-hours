@@ -1,0 +1,25 @@
+{
+  "stills": [
+    {
+      "file": "door-at-night.webp",
+      "caption": "1:20 AM in the rain: the town shop is lit and open, hours after it would usually shut."
+    },
+    {
+      "file": "shop-at-night.webp",
+      "caption": "Inside at night every shelf is bare. The only goods are by the counter: tonight a Ghost Lantern and a gyroid."
+    },
+    {
+      "file": "ghost-lantern.webp",
+      "caption": "The Ghost Lantern, the mod's own piece: a tall lantern with green glowing windows, a face in them, and moss down its stone. Only this lantern wears these pictures."
+    },
+    {
+      "file": "shop-by-day.webp",
+      "caption": "The same shop at 10 AM: the day's own goods on every shelf. The mod changes nothing outside its hours."
+    }
+  ],
+  "film": {
+    "file": "film.mp4",
+    "poster": "film.webp",
+    "caption": "Inside the shop at 1:20 AM with the mod: empty shelves, and by the counter only tonight's gyroid and the Ghost Lantern."
+  }
+}

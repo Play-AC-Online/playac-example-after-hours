@@ -1,0 +1,27 @@
+{
+  "shops": {
+    "nook": {
+      "when": { "hours": { "from": "01:00", "to": "03:00" } },
+      "open": true,
+      "own_goods": false,
+      "goods": [
+        { "item": "example.after-hours:ghost-lantern" },
+        { "item": "0x1768" },
+        { "item": "0x1738" },
+        { "item": "0x16E4" },
+        { "item": "0x1780" },
+        { "item": "0x15BC" },
+        { "item": "0x15E0" },
+        { "item": "0x16C0" },
+        { "item": "0x16CC" },
+        { "item": "0x16FC" },
+        { "item": "0x16F0" },
+        { "item": "0x16B0" },
+        { "item": "0x1728" },
+        { "item": "0x1744" },
+        { "item": "0x1774" },
+        { "item": "0x1798" }
+      ]
+    }
+  }
+}

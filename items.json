@@ -1,0 +1,5 @@
+{
+  "items": [
+    { "id": "ghost-lantern", "name": "Ghost Lantern", "base": "0x122C", "price": 2600, "textures": "items/ghost-lantern/" }
+  ]
+}
